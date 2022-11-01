@@ -17,7 +17,6 @@ a{
 header{
     display: flex;
     justify-content: flex-end;
-    color: #666;
     height: 55px;
 }
 
@@ -26,7 +25,7 @@ header{
     font-size: 40px;
     font-style: italic;
     font-weight: bold;
-    color: paleturquoise;
+    color: turquoise;
     margin-right: auto;
     display: flex;
     align-items: center;
@@ -59,8 +58,8 @@ header{
     min-height: calc(100vh - 55px);
 }
 
-span{
-    color: paleturquoise;
+.home-item span{
+    color: turquoise;
 }
 
 .home-item{
@@ -81,3 +80,48 @@ h1{
     width: 300px;
     max-height: 300px;
 }
+
+/* ABOUT PAGE */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(100vh - 55px);
+    width: 720px;
+}
+
+.section-about-item{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-about-item h1 {
+    font-size: 36px;
+}
+
+.section-about-item p {
+    font-size: 18px;
+    color: #666;
+    text-align: justify;
+}
+
+h2{
+    font-weight: lighter;
+    color: #666;    
+}
+
+.about-item span{
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.education-item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #666;
+    
+}
+
+/* TECH STACK */
+
+/* PROJECTS */
